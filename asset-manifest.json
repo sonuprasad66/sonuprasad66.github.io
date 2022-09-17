@@ -1,16 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.5bdf0a12.js",
-    "static/js/787.18271493.chunk.js": "/static/js/787.18271493.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.ff651f2d.css",
+    "main.js": "/static/js/main.9a4c0066.js",
+    "static/media/clockify.png": "/static/media/clockify.666b21bbad774180878a.png",
+    "static/media/zoomcar.jpg": "/static/media/zoomcar.9afc1ae7d0706d214ef8.jpg",
+    "static/media/profile.png": "/static/media/profile.b48ca886b3e9ce5741f8.png",
+    "static/media/redux.png": "/static/media/redux.1b4bb5fceb01b19da59d.png",
+    "static/media/dsa.png": "/static/media/dsa.22a7d084e53fa9addcf2.png",
+    "static/media/chakraui.png": "/static/media/chakraui.15320604467d004df871.png",
+    "static/media/weather.jpg": "/static/media/weather.6901100d0cbdedb2571d.jpg",
+    "static/media/ndtv.jpg": "/static/media/ndtv.93a3790b125c5bd15f57.jpg",
+    "static/media/rymo.webp": "/static/media/rymo.a9dc531e200296eee18e.webp",
+    "static/media/boostrap.png": "/static/media/boostrap.c5dedb5348b058d36661.png",
+    "static/media/css.png": "/static/media/css.1a57e67ac1fd2ea84d64.png",
+    "static/media/mongodb.png": "/static/media/mongodb.7a16fc61d457c9e340e2.png",
+    "static/media/nodejs.png": "/static/media/nodejs.8e341cc00e4ec40c6a27.png",
+    "static/media/html.png": "/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/expressjs.webp": "/static/media/expressjs.b1ea2a56a1684a950424.webp",
+    "static/media/react.svg": "/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
+    "static/media/netlify.svg": "/static/media/netlify.74896431af95f4ab7d84bc511bbe7126.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.5bdf0a12.js.map": "/static/js/main.5bdf0a12.js.map",
-    "787.18271493.chunk.js.map": "/static/js/787.18271493.chunk.js.map"
+    "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
+    "main.ff651f2d.css.map": "/static/css/main.ff651f2d.css.map",
+    "main.9a4c0066.js.map": "/static/js/main.9a4c0066.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.5bdf0a12.js"
+    "static/css/main.ff651f2d.css",
+    "static/js/main.9a4c0066.js"
   ]
 }
