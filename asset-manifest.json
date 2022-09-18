@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff651f2d.css",
-    "main.js": "/static/js/main.9a4c0066.js",
+    "main.css": "/static/css/main.de9d7b84.css",
+    "main.js": "/static/js/main.bcfd9628.js",
     "static/media/clockify.png": "/static/media/clockify.666b21bbad774180878a.png",
     "static/media/zoomcar.jpg": "/static/media/zoomcar.9afc1ae7d0706d214ef8.jpg",
     "static/media/profile.png": "/static/media/profile.b48ca886b3e9ce5741f8.png",
     "static/media/redux.png": "/static/media/redux.1b4bb5fceb01b19da59d.png",
+    "static/media/Sonu_Prasad_Resume.pdf": "/static/media/Sonu_Prasad_Resume.8ac4579d702783f4fc54.pdf",
+    "static/media/my_portfolio.png": "/static/media/my_portfolio.663df2b0ca91d3baf01c.png",
     "static/media/dsa.png": "/static/media/dsa.22a7d084e53fa9addcf2.png",
     "static/media/chakraui.png": "/static/media/chakraui.15320604467d004df871.png",
     "static/media/weather.jpg": "/static/media/weather.6901100d0cbdedb2571d.jpg",
@@ -21,11 +23,11 @@
     "static/media/netlify.svg": "/static/media/netlify.74896431af95f4ab7d84bc511bbe7126.svg",
     "index.html": "/index.html",
     "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.ff651f2d.css.map": "/static/css/main.ff651f2d.css.map",
-    "main.9a4c0066.js.map": "/static/js/main.9a4c0066.js.map"
+    "main.de9d7b84.css.map": "/static/css/main.de9d7b84.css.map",
+    "main.bcfd9628.js.map": "/static/js/main.bcfd9628.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff651f2d.css",
-    "static/js/main.9a4c0066.js"
+    "static/css/main.de9d7b84.css",
+    "static/js/main.bcfd9628.js"
   ]
 }
