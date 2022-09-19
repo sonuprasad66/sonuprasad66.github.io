@@ -194,7 +194,7 @@ export const Projects = () => {
                 </div>
               </div>
             </Box>
-            <Box>
+            {/* <Box>
               <div className="project_box">
                 <div className="project_image">
                   <img src={zoomcar} alt="clockify" />
@@ -237,7 +237,7 @@ export const Projects = () => {
                   </div>
                 </div>
               </div>
-            </Box>
+            </Box> */}
 
             <Box>
               <div className="project_box">
