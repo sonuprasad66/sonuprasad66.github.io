@@ -15,7 +15,7 @@ export const Projects = () => {
       <div className="project_container">
         <div className="project_heading">
           <h2>
-            My Creative <span>Portfolio </span>Section
+            <span>My</span> Creative <span>Projects </span>Section
           </h2>
         </div>
 
@@ -194,7 +194,7 @@ export const Projects = () => {
                 </div>
               </div>
             </Box>
-            {/* <Box>
+            <Box>
               <div className="project_box">
                 <div className="project_image">
                   <img src={zoomcar} alt="clockify" />
@@ -228,7 +228,7 @@ export const Projects = () => {
                   </div>
                   <div className="deploy_link">
                     <a
-                      href="https://clinquant-moxie-218ec4.netlify.app/"
+                      href="https://relaxed-axolotl-1b3408.netlify.app/"
                       rel="noopener norefferer"
                       target="_blank"
                     >
@@ -237,7 +237,7 @@ export const Projects = () => {
                   </div>
                 </div>
               </div>
-            </Box> */}
+            </Box>
 
             <Box>
               <div className="project_box">
