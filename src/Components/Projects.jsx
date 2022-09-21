@@ -119,7 +119,7 @@ export const Projects = () => {
                 </div>
                 <div className="project_desc">
                   <p>
-                    It's web app to show the weather for cast details. & here
+                    It's web app to show the weather forecast details. & here
                     you will be able to search for all the weather data for any
                     city & it is detect your current location.
                   </p>
@@ -164,7 +164,7 @@ export const Projects = () => {
                   <p>
                     This website is a clone of "Ndtv.com" which is a news
                     provider company here you can see all types of news. I
-                    implimented some pages like shopping portal etc.
+                    implemented some pages like shopping portal etc.
                   </p>
                 </div>
                 <div className="project_tech_stack">
@@ -206,7 +206,7 @@ export const Projects = () => {
                 <div className="project_desc">
                   <p>
                     This website is a clone of "ZoomCar.com" which is a car
-                    provided company here you can book car for travling one
+                    provided company here you can book car for traveling one
                     place to another place.
                   </p>
                 </div>
