@@ -1,73 +1,70 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
  */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 
-.navbar{
+.navbar {
   height: 70px;
   width: 100%;
-  /* border: 1px solid red; */ 
-  background-color:#e7ecf0;
+  /* border: 1px solid red; */
+  background-color: #e7ecf0;
   position: fixed;
-
- 
 }
 
-.navbar_container{
+.navbar_container {
   padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.navbar_left_logo{
+.navbar_left_logo {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 70px;
 }
-.navbar_left_logo h2{
+.navbar_left_logo h2 {
   font-weight: 800;
   font-size: 30px;
 }
-.navbar_left_logo span{
-  color: #E4002B;
+.navbar_left_logo span {
+  color: #e4002b;
 }
 
-.navbar_right{
+.navbar_right {
   display: flex;
   list-style-type: none;
   align-items: center;
 }
 
-.navbar_right li a{
+.navbar_right li a {
   text-decoration: none;
   font-weight: 600;
   font-size: 17px;
   padding: 0 15px;
 }
 
-.navbar_right a:hover{
-  background-color: #E4002B;
+.navbar_right a:hover {
+  background-color: #e4002b;
   color: #fff;
   padding: 10px 15px;
   border-radius: 10px;
-
 }
 
 /* -------------------------Responsive------------------------------------------- */
 
-.toggle{
+.toggle {
   position: fixed;
   top: 10px;
   right: 25px;
@@ -83,37 +80,25 @@ html{
   cursor: pointer;
 }
 
-
-@media (max-width: 900px){
-
-  .navbar_right{
+@media (max-width: 900px) {
+  .navbar_right {
     flex-direction: column;
     width: 100%;
     align-items: center;
     background-color: #e7ecf0;
-     padding: 50px 70px 0 50px;
-
+    padding: 50px 70px 0 50px;
   }
-  .navbar_right li a{
+  .navbar_right li a {
     display: block;
     padding: 20px 0;
-    
   }
- 
-  .toggle{
+
+  .toggle {
     display: flex;
     border: 1px solid #539bd6;
   }
-  
-.navbar_left{
-  display: none;
+
+  .navbar_left {
+    display: none;
+  }
 }
-
-}
-
-
-
-
-
-
-

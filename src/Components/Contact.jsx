@@ -1,28 +1,32 @@
-
 import "../styles/Contact.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { Box, SimpleGrid } from "@chakra-ui/react";
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
-
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_5h90sgm', 'template_u1tdmba', form.current, 'hXcQ_GBwksMfhF8mb')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_5h90sgm",
+        "template_u1tdmba",
+        form.current,
+        "hXcQ_GBwksMfhF8mb"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
   };
-
-
-
 
   return (
     <div className="contact_container" id="contact">
@@ -32,6 +36,8 @@ export const Contact = () => {
             Take A <span>Coffee</span> And <span>Chat</span> With Me
           </h2>
         </div>
+
+        {/* <div className="main_box"></div> */}
 
         <div className="input_box">
           <div className="contact_icon">
@@ -79,18 +85,25 @@ export const Contact = () => {
             <form ref={form} onSubmit={sendEmail}>
               <div>
                 <input
-                name="user_name"
+                  required={true}
+                  name="user_name"
                   className="input_tag"
                   type="text"
                   placeholder="Full Name"
                 />
               </div>
               <div>
-                <input name="user_email" className="input_tag" type="text" placeholder="Email" />
+                <input
+                  required={true}
+                  name="user_email"
+                  className="input_tag"
+                  type="text"
+                  placeholder="Email"
+                />
               </div>
               <div>
                 <input
-                
+                  required={true}
                   className="input_tag"
                   type="number"
                   placeholder="Number"
@@ -98,14 +111,17 @@ export const Contact = () => {
               </div>
               <div className="input_message">
                 <textarea
-                name="message"
+                  required={true}
+                  name="message"
                   className="input_tag_text_message"
                   type="text"
                   placeholder="Your Message"
                 />
               </div>
               <div>
-                <button type="submit" className="input_btn">Send Message</button>
+                <button type="submit" className="input_btn">
+                  Send Message
+                </button>
               </div>
             </form>
           </div>
