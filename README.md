@@ -73,7 +73,7 @@ If you want to contact me, you can reach me through below handles.
 
 
 ## Thanks
-<p> If you like this portfolio template don't forget give it a ⭐ and also share it with me <p/>
+<p> If you like this portfolio don't forget give it a ⭐ and also share it with me <p/>
 <br/>
 
 
