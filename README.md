@@ -1,7 +1,7 @@
 
 <h1 align="center">My Portfolio</h1> 
 
-<h2 align="center"> A clean, beautiful, minimal and responsive portfolio template for Developers!</h2>
+<h2 align="center"> A clean, beautiful, minimal and responsive portfolio!</h2>
 
 <br />
 <p align="center">
