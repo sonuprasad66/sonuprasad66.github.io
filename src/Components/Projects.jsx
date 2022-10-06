@@ -1,13 +1,14 @@
 import React from "react";
-import {Box, SimpleGrid} from "@chakra-ui/react";
+import { Box, SimpleGrid } from "@chakra-ui/react";
 import "../styles/Projects.css";
 import clockify from "../Images/clockify.png";
 import rymo from "../Images/rymo.webp";
 import weather from "../Images/weather.jpg";
+import urban from "../Images/landing.png";
 import ndtv from "../Images/ndtv.jpg";
 import zoomcar from "../Images/zoomcar.jpg";
 import portfolio from "../Images/my_portfolio.png";
-import {FaGithub, FaEye} from "react-icons/fa";
+import { FaGithub, FaEye } from "react-icons/fa";
 
 export const Projects = () => {
   return (
@@ -21,6 +22,51 @@ export const Projects = () => {
 
         <div className="project_grid">
           <SimpleGrid columns={[1, 1, 2, 3]} spacing="30px">
+            <Box>
+              <div className="project_box">
+                <div className="project_image">
+                  <img src={urban} alt="urban" />
+                </div>
+
+                <div className="project_name">
+                  <h2>Urban Company</h2>
+                </div>
+                <div className="project_desc">
+                  <p>
+                    This website is a clone of "Urban Company" I implimented
+                    some functionalities like login & signup for the
+                    authentication, add services, buy services, blog page, etc.
+                  </p>
+                </div>
+                <div className="project_tech_stack">
+                  <h5>
+                    <span>Tech Stack :</span> React, Redux, JavaScript, API,
+                    CSS, Chakra UI
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link">
+                    <a
+                      href="https://github.com/sonuprasad66/tense-visitor-349"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link">
+                    <a
+                      href="https://urban-company-ruddy.vercel.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+
             <Box>
               <div className="project_box">
                 <div className="project_image">
@@ -46,7 +92,7 @@ export const Projects = () => {
                 <div className="project_icon">
                   <div className="github_link">
                     <a
-                      href="https://github.com/sonuprasad66/brief-shirt-7318/tree/main/clockify_website"
+                      href="https://github.com/sonuprasad66/brief-shirt-7318"
                       rel="noopener norefferer"
                       target="_blank"
                     >
@@ -89,7 +135,7 @@ export const Projects = () => {
                 <div className="project_icon">
                   <div className="github_link">
                     <a
-                      href="https://github.com/sonuprasad66/Rymo_Clone/tree/main/rymo_clone"
+                      href="https://github.com/sonuprasad66/Rymo_Clone"
                       rel="noopener norefferer"
                       target="_blank"
                     >
@@ -108,7 +154,7 @@ export const Projects = () => {
                 </div>
               </div>
             </Box>
-            <Box>
+            {/* <Box>
               <div className="project_box">
                 <div className="project_image">
                   <img src={weather} alt="clockify" />
@@ -150,7 +196,7 @@ export const Projects = () => {
                   </div>
                 </div>
               </div>
-            </Box>
+            </Box> */}
             <Box>
               <div className="project_box">
                 <div className="project_image">
