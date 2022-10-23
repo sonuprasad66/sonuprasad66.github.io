@@ -1,14 +1,14 @@
 import React from "react";
 import { Box, SimpleGrid } from "@chakra-ui/react";
-import "../styles/Projects.css";
+import "./Projects.css";
 import clockify from "../Images/clockify.png";
 import rymo from "../Images/rymo.webp";
-import weather from "../Images/weather.jpg";
 import urban from "../Images/landing.png";
 import ndtv from "../Images/ndtv.jpg";
 import zoomcar from "../Images/zoomcar.jpg";
 import portfolio from "../Images/my_portfolio.png";
 import { FaGithub, FaEye } from "react-icons/fa";
+
 
 export const Projects = () => {
   return (

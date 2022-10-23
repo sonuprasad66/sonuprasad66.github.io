@@ -1,9 +1,8 @@
 import React from "react";
-import "../styles/About.css";
-import { Box, SimpleGrid } from "@chakra-ui/react";
+import "./About.css";
+import { Box, HStack, Img, SimpleGrid, Text, isDark } from "@chakra-ui/react";
 import { useState } from "react";
 import { useEffect } from "react";
-
 
 export const About = () => {
   const [btn, setBtn] = useState(false);
@@ -12,7 +11,6 @@ export const About = () => {
   };
   const handleExperience = () => {
     setBtn(false);
-
   };
 
   useEffect(() => {
@@ -581,15 +579,22 @@ export const About = () => {
                       that live on the internet.
                     </li>
                     <li>
-                      I am a Passion-driven MERN developer with hands-on
-                      experience in developing and organizing projects, curious
-                      and detail-oriented with a keen interest to build
-                      interactive and user-friendly websites. Looking for an
-                      exciting opportunity to work as a full-stack developer
-                      that promotes long-term learning and growth alongside the
-                      organization.
+                      I'm a passionate Developer, with strong administrative and
+                      communication skills, good attention to detail and the
+                      ability to write efficient code using MERN Stack.
                     </li>
-                   
+                    <li>
+                      My interest in web development started back last year when
+                      I was trying to edit things on the web, that taught me a
+                      lot about HTML& CSS.
+                    </li>
+                    <li>
+                      Fast Forwarding to today, I built a number of web
+                      applications and major projects. Learned a great deal
+                      about teamwork, leadership, and communication. After
+                      months of rigorous training, here l am looking for an
+                      opportunity as a full stack web developer.
+                    </li>
                   </ul>
                 </Box>
               </div>
@@ -597,38 +602,76 @@ export const About = () => {
               <div>
                 <Box>
                   <div className="experience">
-                    <div className="coding_h">
-                      <h2>1200+</h2>
-                      <p>Hrs Coding</p>
-                    </div>
-                    <div className="projects">
-                      <SimpleGrid columns={[1, 1, 2, 2]} spacing="40px">
-                        <Box className="projects_exp">
-                          <div className="content_exp">
-                            <h4>30+</h4>
-                            <p>Mini Projects</p>
-                          </div>
-                        </Box>
-                        <Box className="projects_exp">
-                          <div className="content_exp">
-                            <h4>05+</h4>
-                            <p>Major Projects</p>
-                          </div>
-                        </Box>
-                        <Box className="projects_exp">
-                          <div className="content_exp">
-                            <h4>300+</h4>
-                            <p>DSA Problems</p>
-                          </div>
-                        </Box>
-                        <Box className="projects_exp">
-                          <div className="content_exp">
-                            <h4>200+</h4>
-                            <p>Hrs Soft Skills</p>
-                          </div>
-                        </Box>
+                    <HStack p={0} justify="center" data-aos="fade-up">
+                      <SimpleGrid columns={[1, 1, 2, 2]} spacing={7}>
+                        <HStack spacing={5}>
+                          <Img
+                            boxSize="40px"
+                            src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-1.svg"
+                            alt="icon"
+                          />
+                          <Text>1200+ Hours Practical Coding</Text>
+                        </HStack>
+                        <HStack spacing={5}>
+                          <Img
+                            boxSize="40px"
+                            src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-2.svg"
+                            alt="icon"
+                          />
+                          <Text>300+ Hours Data Structures & Algorithms</Text>
+                        </HStack>
+                        <HStack spacing={5}>
+                          <Img
+                            boxSize="40px"
+                            src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-3.svg"
+                            alt="icon"
+                          />
+                          <Text>100+ Hours Soft Skill Development</Text>
+                        </HStack>
+                        <HStack spacing={5}>
+                          <Img
+                            boxSize="40px"
+                            src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-4.svg"
+                            alt="icon"
+                          />
+                          <Text>100+ Hours Math & Logic</Text>
+                        </HStack>
+                        <HStack spacing={5}>
+                          <Img
+                            boxSize="40px"
+                            src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-5.svg"
+                            alt="icon"
+                          />
+                          <Text>80+ Mini Projects</Text>
+                        </HStack>
+                        <HStack spacing={5}>
+                          <Img
+                            boxSize="40px"
+                            src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-6.svg"
+                            alt="icon"
+                          />
+                          <Text>10+ Major Projects</Text>
+                        </HStack>
+                        <HStack spacing={5}>
+                          <Img
+                            boxSize="40px"
+                            rounded="10px"
+                            src="https://git-scm.com/images/logos/logomark-orange@2x.png"
+                            alt="git-commit"
+                          />
+                          <Text>370+ Git Commits</Text>
+                        </HStack>
+                        <HStack spacing={5}>
+                          <Img
+                            boxSize="40px"
+                            rounded="10px"
+                            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                            alt="git-commit"
+                          />
+                          <Text>370+ Contributions in the last year</Text>
+                        </HStack>
                       </SimpleGrid>
-                    </div>
+                    </HStack>
                   </div>
                 </Box>
               </div>

@@ -14,7 +14,6 @@ body {
   width: 100%;
   margin: auto;
   padding: 70px 0;
-  background-color: #e7ecf0;
 }
 .contact_content {
   width: 85%;
@@ -34,7 +33,7 @@ body {
 }
 
 .input_box {
-  width: 35%;
+  width: 80%;
   margin: auto;
 }
 

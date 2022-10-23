@@ -1,6 +1,7 @@
 import React from "react";
-import { Box, SimpleGrid } from "@chakra-ui/react";
-import "../styles/Skills.css";
+import { Box, SimpleGrid, useColorMode } from "@chakra-ui/react";
+
+import "./Skills.css";
 import html from "../Images/html.png";
 import css from "../Images/css.png";
 import boostrap from "../Images/boostrap.png";
@@ -9,7 +10,6 @@ import react from "../Images/react.svg";
 import redux from "../Images/redux.png";
 import chakra from "../Images/chakraui.png";
 import postman from "../Images/postman.png";
-import npm from "../Images/npm.svg";
 import git from "../Images/git.png";
 import mongodb from "../Images/mongodb.png";
 import dsa from "../Images/dsa.png";
@@ -20,7 +20,7 @@ import { useState } from "react";
 
 export const Skills = () => {
   const [btn, setBtn] = useState(false);
-
+  const { colorMode, toggleColorMode } = useColorMode();
   let skills_data = [
     {
       url: html,
@@ -139,7 +139,7 @@ export const Skills = () => {
   console.log(skills);
 
   return (
-    <div className="skills_container" id="skillspage">
+    <div className="skills_container" id="skills">
       <div className="skills_heading">
         <h2>
           My <span>Technical</span> Skills
@@ -147,7 +147,9 @@ export const Skills = () => {
       </div>
 
       <div className="skills_btn">
-        <button onClick={handleAll}>All</button>
+        <button onClick={handleAll}>
+          All
+        </button>
         <button onClick={handleFrontend}>Frontend</button>
         <button onClick={handleBackend}>Backend</button>
       </div>
@@ -156,7 +158,13 @@ export const Skills = () => {
         <SimpleGrid columns={[2, 3, 4, 7]} spacing="30px">
           {skills?.map((elem) => (
             <Box key={elem.name}>
-              <div className="skills_grid_box">
+              <div
+                className={
+                  colorMode == "light"
+                    ? "skills_grid_box"
+                    : "skills_grid_box_dark"
+                }
+              >
                 <div className="skills_grid_box_img">
                   <img src={elem.url} alt="skills_logo" />
                 </div>

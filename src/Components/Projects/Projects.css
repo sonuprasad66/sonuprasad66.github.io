@@ -15,8 +15,7 @@ html {
 }
 
 .project_main_container {
-  background-color: #e7ecf0;
-  padding: 70px 0;
+  padding: 60px 0;
 }
 
 .project_container {
@@ -25,7 +24,7 @@ html {
 }
 
 .project_heading {
-  padding: 50px;
+  padding: 0 0 50px 0;
   text-align: center;
 }
 
@@ -39,10 +38,10 @@ html {
 
 .project_box {
   padding: 20px;
+  height: auto;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-  background-color: #fff;
   border-radius: 10px;
 }
 
@@ -69,7 +68,7 @@ html {
 
 .project_tech_stack h5 {
   font-size: 17px;
-  color: grey;
+  /* color: grey; */
   font-weight: 500;
 }
 
@@ -106,6 +105,6 @@ html {
 }
 .project_desc p {
   font-size: 15px;
-  font-weight: 400;
-  color: rgb(99, 96, 96);
+  font-weight: 600;
+  /* color: rgb(99, 96, 96); */
 }
