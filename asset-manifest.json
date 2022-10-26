@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.df94a1fc.css",
-    "main.js": "/static/js/main.877d9193.js",
+    "main.css": "/static/css/main.69c2244e.css",
+    "main.js": "/static/js/main.69e951f7.js",
     "static/media/landing.png": "/static/media/landing.8246648a4d427420fcb0.png",
     "static/media/clockify.png": "/static/media/clockify.666b21bbad774180878a.png",
+    "static/media/Sonu_Prasad_Resume.pdf": "/static/media/Sonu_Prasad_Resume.ae41089195863c992c9f.pdf",
     "static/media/zoomcar.jpg": "/static/media/zoomcar.9afc1ae7d0706d214ef8.jpg",
-    "static/media/profile.png": "/static/media/profile.b48ca886b3e9ce5741f8.png",
+    "static/media/profile.png": "/static/media/profile.f8fd06657b8ee1a4fe6f.png",
     "static/media/redux.png": "/static/media/redux.1b4bb5fceb01b19da59d.png",
-    "static/media/Sonu_Prasad_Resume.pdf": "/static/media/Sonu_Prasad_Resume.8ac4579d702783f4fc54.pdf",
     "static/media/my_portfolio.png": "/static/media/my_portfolio.663df2b0ca91d3baf01c.png",
     "static/media/dsa.png": "/static/media/dsa.22a7d084e53fa9addcf2.png",
     "static/media/chakraui.png": "/static/media/chakraui.15320604467d004df871.png",
-    "static/media/weather.jpg": "/static/media/weather.6901100d0cbdedb2571d.jpg",
     "static/media/ndtv.jpg": "/static/media/ndtv.93a3790b125c5bd15f57.jpg",
     "static/media/rymo.webp": "/static/media/rymo.a9dc531e200296eee18e.webp",
     "static/media/boostrap.png": "/static/media/boostrap.c5dedb5348b058d36661.png",
@@ -23,12 +22,11 @@
     "static/media/react.svg": "/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
     "static/media/netlify.svg": "/static/media/netlify.74896431af95f4ab7d84bc511bbe7126.svg",
     "index.html": "/index.html",
-    "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.df94a1fc.css.map": "/static/css/main.df94a1fc.css.map",
-    "main.877d9193.js.map": "/static/js/main.877d9193.js.map"
+    "main.69c2244e.css.map": "/static/css/main.69c2244e.css.map",
+    "main.69e951f7.js.map": "/static/js/main.69e951f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.df94a1fc.css",
-    "static/js/main.877d9193.js"
+    "static/css/main.69c2244e.css",
+    "static/js/main.69e951f7.js"
   ]
 }
