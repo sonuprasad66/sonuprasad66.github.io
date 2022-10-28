@@ -1,4 +1,4 @@
-import { Box, SimpleGrid } from "@chakra-ui/react";
+import { Box, SimpleGrid, useColorMode } from "@chakra-ui/react";
 import React from "react";
 import "./Stars.css";
 import { useMediaQuery } from "react-responsive";
@@ -21,10 +21,21 @@ const Default = ({ children }) => {
 };
 
 export const Stars = () => {
+  const { colorMode, toggleColorMode } = useColorMode();
   return (
-    <div className="stars_container">
+    <div
+      className="stars_container"
+      style={{
+        backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+      }}
+    >
       <div className="main_box">
         <Desktop>
+          <div className="star_header">
+            <h2>
+              Github <span>Statistics</span>
+            </h2>
+          </div>
           <div className="box1">
             <a href="https://github.com/sonuprasad66">
               <img src="https://github-readme-streak-stats.herokuapp.com?user=sonuprasad66&theme=github-light&border_radius=5" />
@@ -53,6 +64,11 @@ export const Stars = () => {
         </Desktop>
 
         <Tablet>
+          <div className="star_header">
+            <h2>
+              Github <span>Statistics</span>
+            </h2>
+          </div>
           <div className="box1">
             <a href="https://github.com/sonuprasad66">
               <img src="https://github-readme-streak-stats.herokuapp.com?user=sonuprasad66&theme=github-light&border_radius=5" />
@@ -81,6 +97,11 @@ export const Stars = () => {
         </Tablet>
 
         <Mobile>
+          <div className="star_header">
+            <h2>
+              Github <span>Statistics</span>
+            </h2>
+          </div>
           <div className="box1">
             <a href="https://github.com/sonuprasad66">
               <img src="https://github-readme-streak-stats.herokuapp.com?user=sonuprasad66&theme=github-light&border_radius=5" />

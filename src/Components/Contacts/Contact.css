@@ -65,7 +65,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.icon_box {
+  width: 170px;
+  transition: transform 0.5s linear;
+}
+
+.icon_box:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s ease-in;
 }
 
 #icon1 {
@@ -78,10 +88,15 @@ body {
 #icon3 {
   background-color: rgb(226, 13, 13);
 }
-
+#icon4 {
+  background-color: blue;
+}
+.contact_information {
+  text-align: center;
+}
 .input_tag {
   height: 45px;
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
   padding-left: 20px;
   border-radius: 10px;
@@ -91,7 +106,7 @@ body {
 
 .input_tag_text_message {
   height: 150px;
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
   border-radius: 10px;
   padding-left: 20px;
@@ -101,7 +116,7 @@ body {
 
 .input_btn {
   height: 45px;
-  width: 100%;
+  width: 90%;
   background-color: #e4002b;
   margin-top: 20px;
   color: #fff;

@@ -142,14 +142,12 @@ export const Skills = () => {
     <div className="skills_container" id="skills">
       <div className="skills_heading">
         <h2>
-          My <span>Technical</span> Skills
+          Tech <span>Stack</span>
         </h2>
       </div>
 
       <div className="skills_btn">
-        <button onClick={handleAll}>
-          All
-        </button>
+        <button onClick={handleAll}>All</button>
         <button onClick={handleFrontend}>Frontend</button>
         <button onClick={handleBackend}>Backend</button>
       </div>

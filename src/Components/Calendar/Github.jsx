@@ -8,7 +8,7 @@ function Github() {
     <div className="github">
       <div className="github_text">
         <h2>
-          Github <span>Calendar</span>{" "}
+          Github <span>Calendar</span>
         </h2>
       </div>
       <div className="cal">

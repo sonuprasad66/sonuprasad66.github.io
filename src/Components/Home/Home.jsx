@@ -7,7 +7,7 @@ import { TiArrowUp } from "react-icons/ti";
 import { RiLinkedinFill } from "react-icons/ri";
 import { Box, SimpleGrid, useColorMode } from "@chakra-ui/react";
 import resume from "../Resume/Sonu_Prasad_Resume.pdf";
-
+import Typewriter from "typewriter-effect";
 import { useMediaQuery } from "react-responsive";
 
 const Desktop = ({ children }) => {
@@ -47,7 +47,19 @@ export const Home = () => {
                   <h5>Hello, my name is</h5>
                   <h2>Sonu Prasad</h2>
                   <p>
-                    I'm a <span>Full Stack Developer.</span>
+                    I'm a
+                    <span>
+                      <Typewriter
+                        options={{
+                          strings: [
+                            "Full Stack Developer.",
+                            "Mern Stack Developer.",
+                          ],
+                          autoStart: true,
+                          loop: true,
+                        }}
+                      />
+                    </span>
                   </p>
                   <a download href={resume}>
                     <button>Resume</button>
@@ -130,7 +142,19 @@ export const Home = () => {
                   <h5>Hello, my name is</h5>
                   <h2>Sonu Prasad</h2>
                   <p>
-                    I'm a <span>Full Stack Developer.</span>
+                    I'm a
+                    <span>
+                      <Typewriter
+                        options={{
+                          strings: [
+                            "Full Stack Developer",
+                            "Mern Stack Developer",
+                          ],
+                          autoStart: true,
+                          loop: true,
+                        }}
+                      />
+                    </span>
                   </p>
                   <a download href={resume}>
                     <button>Resume</button>
@@ -205,7 +229,19 @@ export const Home = () => {
                   <h5>Hello, my name is</h5>
                   <h2>Sonu Prasad</h2>
                   <p>
-                    I'm a <span>Full Stack Developer.</span>
+                    I'm a
+                    <span>
+                      <Typewriter
+                        options={{
+                          strings: [
+                            "Full Stack Developer.",
+                            "Mern Stack Developer.",
+                          ],
+                          autoStart: true,
+                          loop: true,
+                        }}
+                      />
+                    </span>
                   </p>
                   <a download href={resume}>
                     <button>Resume</button>

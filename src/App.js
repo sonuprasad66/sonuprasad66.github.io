@@ -6,6 +6,7 @@ import { Home } from "./Components/Home/Home";
 import { Navbar } from "./Components/Navbar/Navbar";
 import { Projects } from "./Components/Projects/Projects";
 import { Skills } from "./Components/Skills/Skills";
+import { SoftSkills } from "./Components/Skills/SoftSkills";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
+      <SoftSkills />
       <Github />
       <Stars />
       <Contact />

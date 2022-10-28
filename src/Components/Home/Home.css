@@ -210,7 +210,7 @@ html {
 }
 
 /* ------------------------ Home text For Mobile --------------------------- */
-.home_box_content_mobile{
+.home_box_content_mobile {
   /* border: 1px solid red; */
   margin: 40px 0 0 20px;
 }
@@ -223,16 +223,14 @@ html {
 .home_box_content_mobile h2 {
   font-size: 50px;
   font-weight: 700;
-
 }
 
 .home_box_content_mobile p {
-
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 700;
 }
 .home_box_content_mobile span {
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 700;
   color: #e4002b;
 }

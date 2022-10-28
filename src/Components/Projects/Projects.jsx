@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, SimpleGrid } from "@chakra-ui/react";
+import { Box, SimpleGrid, useColorMode } from "@chakra-ui/react";
 import "./Projects.css";
 import clockify from "../Images/clockify.png";
 import rymo from "../Images/rymo.webp";
@@ -9,10 +9,16 @@ import zoomcar from "../Images/zoomcar.jpg";
 import portfolio from "../Images/my_portfolio.png";
 import { FaGithub, FaEye } from "react-icons/fa";
 
-
 export const Projects = () => {
+  const { colorMode, toggleColorMode } = useColorMode();
   return (
-    <div id="project" className="project_main_container">
+    <div
+      id="project"
+      className="project_main_container"
+      style={{
+        backgroundColor: colorMode == "light" ? "#edf2f8" : "#1a202c",
+      }}
+    >
       <div className="project_container">
         <div className="project_heading">
           <h2>
@@ -21,7 +27,7 @@ export const Projects = () => {
         </div>
 
         <div className="project_grid">
-          <SimpleGrid columns={[1, 1, 2, 3]} spacing="30px">
+          <SimpleGrid columns={[1, 1, 2, 3]} spacing="40px">
             <Box>
               <div className="project_box">
                 <div className="project_image">

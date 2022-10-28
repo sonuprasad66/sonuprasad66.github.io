@@ -43,6 +43,7 @@ html {
     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   border-radius: 10px;
+  /* background-color: white; */
 }
 
 .project_box:hover {
@@ -53,6 +54,11 @@ html {
 .project_image img {
   border-radius: 10px;
   height: 170px;
+  transition: transform 0.5s linear;
+}
+.project_image img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in;
 }
 
 .project_name {

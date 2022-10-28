@@ -8,10 +8,25 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.star_header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.star_header h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.star_header span {
+  color: #e4002b;
+}
+
 .stars_container {
   width: 100%;
   /* border: 1px solid red; */
   padding: 20px 0;
+  background-color: #edf2f8;
+  margin-bottom: 30px;
 }
 
 .main_box {

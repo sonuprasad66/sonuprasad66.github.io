@@ -1,5 +1,6 @@
 import "./Contact.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { BiPhoneCall } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
 import { Box, SimpleGrid, useColorMode } from "@chakra-ui/react";
 import React, { useRef } from "react";
@@ -57,8 +58,8 @@ export const Contact = () => {
             <Box>
               <div className="input_box">
                 <div className="contact_icon">
-                  <SimpleGrid columns={[2, 3, 3, 3]} spacing="20px">
-                    <Box>
+                  <SimpleGrid columns={[1, 2, 2, 2]} spacing="20px">
+                    <Box className="icon_box">
                       <a
                         href="https://www.linkedin.com/in/sonuprasad66/"
                         rel="noopener norefferer"
@@ -70,7 +71,7 @@ export const Contact = () => {
                         </div>
                       </a>
                     </Box>
-                    <Box>
+                    <Box className="icon_box">
                       <a
                         href="https://github.com/sonuprasad66"
                         rel="noopener norefferer"
@@ -82,7 +83,7 @@ export const Contact = () => {
                         </div>
                       </a>
                     </Box>
-                    <Box>
+                    <Box className="icon_box">
                       <a
                         href="mailto:sp.srp1999@gmail.com"
                         rel="noopener norefferer"
@@ -91,6 +92,18 @@ export const Contact = () => {
                         <div className="icon" id="icon3">
                           <FiMail />
                           <h3>Gmail</h3>
+                        </div>
+                      </a>
+                    </Box>
+                    <Box className="icon_box">
+                      <a
+                        href="https://wa.me/message/NRMSG26TO5LVH1"
+                        rel="noopener norefferer"
+                        target="_blank"
+                      >
+                        <div className="icon" id="icon4">
+                          <BiPhoneCall />
+                          <h3>9113435150</h3>
                         </div>
                       </a>
                     </Box>
