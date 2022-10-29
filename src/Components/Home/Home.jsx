@@ -14,6 +14,7 @@ const Desktop = ({ children }) => {
   const isDesktop = useMediaQuery({ minWidth: 992 });
   return isDesktop ? children : null;
 };
+
 const Tablet = ({ children }) => {
   const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 });
   return isTablet ? children : null;
@@ -46,8 +47,9 @@ export const Home = () => {
                 <div className="home_box_content">
                   <h5>Hello, my name is</h5>
                   <h2>Sonu Prasad</h2>
-                  <p>
-                    I'm a
+
+                  <div className="full">
+                    <p>I'm a</p>
                     <span>
                       <Typewriter
                         options={{
@@ -60,7 +62,7 @@ export const Home = () => {
                         }}
                       />
                     </span>
-                  </p>
+                  </div>
                   <a download href={resume}>
                     <button>Resume</button>
                   </a>
@@ -141,21 +143,21 @@ export const Home = () => {
                 <div className="home_box_content_tablet">
                   <h5>Hello, my name is</h5>
                   <h2>Sonu Prasad</h2>
-                  <p>
-                    I'm a
+                  <div className="full_tablet">
+                    <p>I'm a</p>
                     <span>
                       <Typewriter
                         options={{
                           strings: [
-                            "Full Stack Developer",
-                            "Mern Stack Developer",
+                            "Full Stack Developer.",
+                            "Mern Stack Developer.",
                           ],
                           autoStart: true,
                           loop: true,
                         }}
                       />
                     </span>
-                  </p>
+                  </div>
                   <a download href={resume}>
                     <button>Resume</button>
                   </a>
@@ -228,8 +230,8 @@ export const Home = () => {
                 <div className="home_box_content_mobile">
                   <h5>Hello, my name is</h5>
                   <h2>Sonu Prasad</h2>
-                  <p>
-                    I'm a
+                  <div className="full_phone">
+                    <p>I'm a</p>
                     <span>
                       <Typewriter
                         options={{
@@ -242,7 +244,7 @@ export const Home = () => {
                         }}
                       />
                     </span>
-                  </p>
+                  </div>
                   <a download href={resume}>
                     <button>Resume</button>
                   </a>
