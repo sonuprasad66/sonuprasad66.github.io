@@ -43,7 +43,6 @@ html {
     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   border-radius: 10px;
-  /* background-color: white; */
 }
 
 .project_box:hover {
@@ -74,7 +73,7 @@ html {
 
 .project_tech_stack h5 {
   font-size: 17px;
-  /* color: grey; */
+
   font-weight: 500;
 }
 
@@ -112,5 +111,4 @@ html {
 .project_desc p {
   font-size: 15px;
   font-weight: 600;
-  /* color: rgb(99, 96, 96); */
 }

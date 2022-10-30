@@ -156,7 +156,6 @@ html {
   height: 450px;
   width: 400px;
   cursor: pointer;
-  /* border: 1px solid red; */
   margin: -40px 0;
 }
 .home_box_img_tablet img {
@@ -215,7 +214,6 @@ html {
   justify-content: center;
   align-items: center;
   padding: 0px 0 30px 0;
-  /* border: 1px solid red; */
 }
 
 .home_box_img_mobile {
@@ -231,7 +229,6 @@ html {
 
 /* ------------------------ Home text For Mobile --------------------------- */
 .home_box_content_mobile {
-  /* border: 1px solid red; */
   margin: 40px 0 0 20px;
 }
 

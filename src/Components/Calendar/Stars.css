@@ -23,7 +23,6 @@ body {
 
 .stars_container {
   width: 100%;
-  /* border: 1px solid red; */
   padding: 20px 0;
   background-color: #edf2f8;
   margin-bottom: 30px;
@@ -31,7 +30,6 @@ body {
 
 .main_box {
   width: 80%;
-  /* border: 1px solid red; */
   margin: auto;
   padding: 30px 0;
 }
