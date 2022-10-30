@@ -136,7 +136,7 @@ export const Skills = () => {
     setBtn(false);
   };
 
-  console.log(skills);
+  // console.log(skills);
 
   return (
     <div className="skills_container" id="skills">
