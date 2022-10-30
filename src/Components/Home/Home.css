@@ -18,8 +18,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 130px 0;
-  /* border: 1px solid red; */
+  padding: 130px 0 160px 0;
 }
 
 .home_box_img {
@@ -208,7 +207,7 @@ html {
 
 /* =========================Responsive For mobile ========================================= */
 .home_Container_mobile {
-  padding: 120px 0px;
+  padding: 120px 0px 70px 0;
 }
 
 .home_Container_box_mobile {
