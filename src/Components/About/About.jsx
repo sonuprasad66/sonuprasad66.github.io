@@ -24,10 +24,10 @@ export const About = () => {
         </h2>
       </div>
 
-      <div className="about_btn">
+      {/* <div className="about_btn">
         <button onClick={handleAbourMe}>About Me</button>
         <button onClick={handleExperience}>Experience</button>
-      </div>
+      </div> */}
 
       <div className="about_all">
         <SimpleGrid columns={[1, 1, 1, 2]}>
@@ -570,6 +570,112 @@ export const About = () => {
           </div>
 
           <div className="about_box2">
+            <div>
+              <Box>
+                <div className="me">
+                  Hello! My name is Sonu Prasad & I enjoy creating things that
+                  live on the internet. I'm a passionate Developer, with strong
+                  administrative & communication skills, good attention to
+                  detail & the ability to write efficient code using MERN Stack.
+                </div>
+              </Box>
+            </div>
+
+            <div>
+              <Box>
+                <div className="experience">
+                  <HStack p={0} justify="center" data-aos="fade-up">
+                    <SimpleGrid columns={[1, 1, 2, 2]} spacing={7}>
+                      <HStack spacing={5}>
+                        <Img
+                          boxSize="40px"
+                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-1.svg"
+                          alt="icon"
+                        />
+                        <Text className="experience_text">
+                          1200+ Hours Practical Coding
+                        </Text>
+                      </HStack>
+                      <HStack spacing={5}>
+                        <Img
+                          boxSize="40px"
+                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-2.svg"
+                          alt="icon"
+                        />
+                        <Text className="experience_text">
+                          300+ Hours Data Structures & Algorithms
+                        </Text>
+                      </HStack>
+                      <HStack spacing={5}>
+                        <Img
+                          boxSize="40px"
+                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-3.svg"
+                          alt="icon"
+                        />
+                        <Text className="experience_text">
+                          100+ Hours Soft Skill Development
+                        </Text>
+                      </HStack>
+                      <HStack spacing={5}>
+                        <Img
+                          boxSize="40px"
+                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-4.svg"
+                          alt="icon"
+                        />
+                        <Text className="experience_text">
+                          100+ Hours Math & Logic
+                        </Text>
+                      </HStack>
+                      <HStack spacing={5}>
+                        <Img
+                          boxSize="40px"
+                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-5.svg"
+                          alt="icon"
+                        />
+                        <Text className="experience_text">
+                          80+ Mini Projects
+                        </Text>
+                      </HStack>
+                      <HStack spacing={5}>
+                        <Img
+                          boxSize="40px"
+                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-6.svg"
+                          alt="icon"
+                        />
+                        <Text className="experience_text">
+                          10+ Major Projects
+                        </Text>
+                      </HStack>
+                      <HStack spacing={5}>
+                        <Img
+                          boxSize="40px"
+                          rounded="10px"
+                          src="https://git-scm.com/images/logos/logomark-orange@2x.png"
+                          alt="git-commit"
+                        />
+                        <Text className="experience_text">
+                          375+ Git Commits
+                        </Text>
+                      </HStack>
+                      <HStack spacing={5}>
+                        <Img
+                          boxSize="40px"
+                          rounded="10px"
+                          src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                          alt="git-commit"
+                        />
+                        <Text className="experience_text">
+                          450+ Contributions in the last year
+                        </Text>
+                      </HStack>
+                    </SimpleGrid>
+                  </HStack>
+                </div>
+              </Box>
+            </div>
+          </div>
+
+          {/* <div className="about_box2">
             {btn ? (
               <div>
                 <Box>
@@ -676,7 +782,7 @@ export const About = () => {
                 </Box>
               </div>
             )}
-          </div>
+          </div> */}
         </SimpleGrid>
       </div>
     </div>

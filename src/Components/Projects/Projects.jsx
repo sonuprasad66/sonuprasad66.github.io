@@ -7,6 +7,7 @@ import urban from "../Images/landing.png";
 import ndtv from "../Images/ndtv.jpg";
 import zoomcar from "../Images/zoomcar.jpg";
 import portfolio from "../Images/my_portfolio.png";
+import weather_app from "../Images/weather_app.png";
 import { FaGithub, FaEye } from "react-icons/fa";
 
 export const Projects = () => {
@@ -29,7 +30,12 @@ export const Projects = () => {
         <div className="project_grid">
           <SimpleGrid columns={[1, 1, 2, 3]} spacing="40px">
             <Box>
-              <div className="project_box">
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
                 <div className="project_image">
                   <img src={urban} alt="urban" />
                 </div>
@@ -74,7 +80,12 @@ export const Projects = () => {
             </Box>
 
             <Box>
-              <div className="project_box">
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
                 <div className="project_image">
                   <img src={clockify} alt="clockify" />
                 </div>
@@ -117,8 +128,14 @@ export const Projects = () => {
                 </div>
               </div>
             </Box>
+
             <Box>
-              <div className="project_box">
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
                 <div className="project_image">
                   <img src={rymo} alt="clockify" />
                 </div>
@@ -160,6 +177,58 @@ export const Projects = () => {
                 </div>
               </div>
             </Box>
+
+            <Box>
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
+                <div className="project_image">
+                  <img src={weather_app} alt="weather_app" />
+                </div>
+
+                <div className="project_name">
+                  <h2>Weather App</h2>
+                </div>
+                <div className="project_desc">
+                  <p>
+                    It`s a web app to show the weather forecast details using
+                    weather API & here you will be able to search for all the
+                    weather details for any city. It is also detect your current
+                    location.
+                  </p>
+                </div>
+                <div className="project_tech_stack">
+                  <h5>
+                    <span>Tech Stack :</span> React, Redux, Chakra UI, CSS,
+                    JavaScript, Rest API
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link">
+                    <a
+                      href="https://github.com/sonuprasad66/Weather_App"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link">
+                    <a
+                      href="https://sonu-weather-app.vercel.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+
             {/* <Box>
               <div className="project_box">
                 <div className="project_image">
@@ -203,8 +272,14 @@ export const Projects = () => {
                 </div>
               </div>
             </Box> */}
+
             <Box>
-              <div className="project_box">
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
                 <div className="project_image">
                   <img src={ndtv} alt="clockify" />
                 </div>
@@ -246,8 +321,14 @@ export const Projects = () => {
                 </div>
               </div>
             </Box>
+
             <Box>
-              <div className="project_box">
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
                 <div className="project_image">
                   <img src={zoomcar} alt="clockify" />
                 </div>
@@ -291,8 +372,13 @@ export const Projects = () => {
               </div>
             </Box>
 
-            <Box>
-              <div className="project_box">
+            {/* <Box>
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
                 <div className="project_image">
                   <img src={portfolio} alt="portfolio" />
                 </div>
@@ -333,7 +419,7 @@ export const Projects = () => {
                   </div>
                 </div>
               </div>
-            </Box>
+            </Box> */}
           </SimpleGrid>
         </div>
       </div>

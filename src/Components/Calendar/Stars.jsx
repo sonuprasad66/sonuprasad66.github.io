@@ -117,6 +117,7 @@ export const Stars = () => {
                   />
                 </a>
               </Box>
+              <br />
               <Box>
                 <a href="https://github.com/sonuprasad66">
                   <img

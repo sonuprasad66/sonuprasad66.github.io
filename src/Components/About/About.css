@@ -19,6 +19,7 @@ html {
 }
 .about_heading {
   text-align: center;
+  padding: 60px 0;
 }
 .about_heading h2 {
   font-size: 40px;
@@ -63,10 +64,11 @@ html {
 .about_box2 {
   width: 90%;
 }
+
 .about_box2 li {
   margin-top: 20px;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .box1_gif {
@@ -77,4 +79,14 @@ html {
 .experience {
   margin-top: 30px;
   padding: 10px;
+}
+
+.me {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.experience_text {
+  font-size: 18px;
+  font-weight: 500;
 }
