@@ -260,8 +260,8 @@ export const Projects = () => {
                 </div>
                 <div className="project_tech_stack">
                   <h5>
-                    <span>Tech Stack :</span> React, HTML, CSS, JavaScript, Rest
-                    API
+                    <span>Tech Stack :</span> React, HTML, CSS, JavaScript,
+                    Language-API, Font-Awesome
                   </h5>
                 </div>
                 <div className="project_icon">
@@ -503,8 +503,8 @@ export const Projects = () => {
                 </div>
                 <div className="project_tech_stack">
                   <h5>
-                    <span>Tech Stack :</span> HTML, CSS, JavaScript, Font
-                    Awasome
+                    <span>Tech Stack :</span> HTML, CSS, Advance-JavaScript,
+                    Font Awasome
                   </h5>
                 </div>
                 <div className="project_icon">
