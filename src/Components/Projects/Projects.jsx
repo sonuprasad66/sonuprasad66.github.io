@@ -8,6 +8,9 @@ import ndtv from "../Images/ndtv.jpg";
 import zoomcar from "../Images/zoomcar.jpg";
 import portfolio from "../Images/my_portfolio.png";
 import weather_app from "../Images/weather_app.png";
+import tata1mg from "../Images/tata1mg.png";
+import youtube from "../Images/youtube.png";
+import language from "../Images/language.png";
 import { FaGithub, FaEye } from "react-icons/fa";
 
 export const Projects = () => {
@@ -29,6 +32,56 @@ export const Projects = () => {
 
         <div className="project_grid">
           <SimpleGrid columns={[1, 1, 2, 3]} spacing="40px">
+            <Box>
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
+                <div className="project_image">
+                  <img src={tata1mg} alt="tata1mg" />
+                </div>
+
+                <div className="project_name">
+                  <h2>Tata 1mg Clone</h2>
+                </div>
+                <div className="project_desc">
+                  <p>
+                    TATA 1mg.com is an e-commerce web application that widely
+                    provides e-pharmacy, diagnostics, e-consultation, and
+                    healthcare solutions related service all across India.
+                  </p>
+                </div>
+                <div className="project_tech_stack">
+                  <h5>
+                    <span>Tech Stack :</span> React, Redux, JavaScript, CSS,
+                    Chakra UI, Node, Express, MongoDB
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link">
+                    <a
+                      href="https://github.com/sonuprasad66/omniscient-sheet-6598"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link">
+                    <a
+                      href="https://tata-1mg-clone-sage.vercel.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+
             <Box>
               <div
                 className="project_box"
@@ -95,9 +148,9 @@ export const Projects = () => {
                 </div>
                 <div className="project_desc">
                   <p>
-                    This website is a clone of "Clockify.me" I implimented some
-                    functionalities like login & signup for the authentication,
-                    create task & edit task etc.
+                    Clockify is one of the best Time tracking websites. On this
+                    website, you can easily track your time and manage also. A
+                    individual project built by me executed in 5 days.
                   </p>
                 </div>
                 <div className="project_tech_stack">
@@ -119,55 +172,6 @@ export const Projects = () => {
                   <div className="deploy_link">
                     <a
                       href="https://snazzy-semifreddo-553037.netlify.app/"
-                      rel="noopener norefferer"
-                      target="_blank"
-                    >
-                      <FaEye />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Box>
-
-            <Box>
-              <div
-                className="project_box"
-                style={{
-                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
-                }}
-              >
-                <div className="project_image">
-                  <img src={rymo} alt="clockify" />
-                </div>
-
-                <div className="project_name">
-                  <h2>Rymo Clone</h2>
-                </div>
-                <div className="project_desc">
-                  <p>
-                    This website is a clone of "Rymo.com" which is an e-commerce
-                    store & here I implimented some functionalities like add to
-                    cart etc.
-                  </p>
-                </div>
-                <div className="project_tech_stack">
-                  <h5>
-                    <span>Tech Stack :</span> HTML, CSS, JavaScript, Boostrap
-                  </h5>
-                </div>
-                <div className="project_icon">
-                  <div className="github_link">
-                    <a
-                      href="https://github.com/sonuprasad66/Rymo_Clone"
-                      rel="noopener norefferer"
-                      target="_blank"
-                    >
-                      <FaGithub />
-                    </a>
-                  </div>
-                  <div className="deploy_link">
-                    <a
-                      href="https://rad-kelpie-75b4db.netlify.app/index.html"
                       rel="noopener norefferer"
                       target="_blank"
                     >
@@ -219,6 +223,160 @@ export const Projects = () => {
                   <div className="deploy_link">
                     <a
                       href="https://sonu-weather-app.vercel.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+
+            <Box>
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
+                <div className="project_image">
+                  <img
+                    style={{ width: "100%" }}
+                    src={language}
+                    alt="language"
+                  />
+                </div>
+
+                <div className="project_name">
+                  <h2>Language Translator App</h2>
+                </div>
+                <div className="project_desc">
+                  <p>
+                    This project is about building a web app for language
+                    translation using language translator API. Here you will be
+                    able to translate between multiple languages very easily.
+                  </p>
+                </div>
+                <div className="project_tech_stack">
+                  <h5>
+                    <span>Tech Stack :</span> React, HTML, CSS, JavaScript, Rest
+                    API
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link">
+                    <a
+                      href="https://github.com/sonuprasad66/Language_Translator_App"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link">
+                    <a
+                      href="https://sonu-language-translator-app.vercel.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+
+            <Box>
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
+                <div className="project_image">
+                  <img src={youtube} alt="youtube" />
+                </div>
+
+                <div className="project_name">
+                  <h2>YouTube Clone</h2>
+                </div>
+                <div className="project_desc">
+                  <p>
+                    This website is a clone of "YouTube" I implimented some
+                    functionalities like user can search any types of videos and
+                    channel name also he can see title of video and play video.
+                  </p>
+                </div>
+                <div className="project_tech_stack">
+                  <h5>
+                    <span>Tech Stack :</span> HTML, CSS, JavaScript,
+                    YouTube-API, Font-Awesome
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link">
+                    <a
+                      href="https://github.com/sonuprasad66/YouTube_Clone"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link">
+                    <a
+                      href="https://taupe-lily-fd39d4.netlify.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+
+            <Box>
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
+                <div className="project_image">
+                  <img src={rymo} alt="clockify" />
+                </div>
+
+                <div className="project_name">
+                  <h2>Rymo Clone</h2>
+                </div>
+                <div className="project_desc">
+                  <p>
+                    This website is a clone of "Rymo.com" which is an e-commerce
+                    store & here I implimented some functionalities like add to
+                    cart etc.
+                  </p>
+                </div>
+                <div className="project_tech_stack">
+                  <h5>
+                    <span>Tech Stack :</span> HTML, CSS, JavaScript, Boostrap,
+                    Font-Awesome
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link">
+                    <a
+                      href="https://github.com/sonuprasad66/Rymo_Clone"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link">
+                    <a
+                      href="https://rad-kelpie-75b4db.netlify.app/index.html"
                       rel="noopener norefferer"
                       target="_blank"
                     >

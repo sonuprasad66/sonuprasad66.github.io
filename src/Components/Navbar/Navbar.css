@@ -47,7 +47,8 @@ html {
   align-items: center;
 }
 
-.navbar_right li a {
+.navbar_right li a,
+button {
   text-decoration: none;
   font-weight: 600;
   font-size: 17px;

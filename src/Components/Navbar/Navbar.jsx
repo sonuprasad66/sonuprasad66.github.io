@@ -85,8 +85,18 @@ export const Navbar = () => {
                     <a href="#contact">CONTACT</a>
                   </li>
                   <li>
-                    <a download href={resume}>
+                    {/* <a download href={resume}>
                       RESUME
+                    </a> */}
+                    <a href={resume} download>
+                      <button
+                        onClick={() => {
+                          window.open(resume);
+                        }}
+                        id="resume"
+                      >
+                        RESUME
+                      </button>
                     </a>
                   </li>
                   <li>
