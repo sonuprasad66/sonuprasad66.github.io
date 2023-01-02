@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.846909c7.css",
-    "main.js": "/static/js/main.4c182020.js",
+    "main.js": "/static/js/main.9b6ca1b9.js",
     "static/media/youtube.png": "/static/media/youtube.37d09e9174b1606ca49b.png",
     "static/media/landing.png": "/static/media/landing.8246648a4d427420fcb0.png",
     "static/media/creativity1.png": "/static/media/creativity1.445675a0a00c2757a1d6.png",
@@ -9,9 +9,9 @@
     "static/media/weather_app.png": "/static/media/weather_app.35acecf8965d57da41ca.png",
     "static/media/tata1mg.png": "/static/media/tata1mg.f0515b2f029c09f85ce7.png",
     "static/media/zoomcar.jpg": "/static/media/zoomcar.9afc1ae7d0706d214ef8.jpg",
-    "static/media/profile.png": "/static/media/profile.f8fd06657b8ee1a4fe6f.png",
     "static/media/redux.png": "/static/media/redux.1b4bb5fceb01b19da59d.png",
-    "static/media/Sonu_Prasad_Resume.pdf": "/static/media/Sonu_Prasad_Resume.1b1ae8ee09a34b24fa34.pdf",
+    "static/media/profile.png": "/static/media/profile.d745a1247be58becbeb3.png",
+    "static/media/Sonu_Prasad_Resume.pdf": "/static/media/Sonu_Prasad_Resume.c82231035281b8868e42.pdf",
     "static/media/my_portfolio.png": "/static/media/my_portfolio.663df2b0ca91d3baf01c.png",
     "static/media/timeManage.png": "/static/media/timeManage.4644a4b2b8ed5f538eec.png",
     "static/media/dsa.png": "/static/media/dsa.77509298a343d123a7bd.png",
@@ -34,10 +34,10 @@
     "static/media/netlify.svg": "/static/media/netlify.74896431af95f4ab7d84bc511bbe7126.svg",
     "index.html": "/index.html",
     "main.846909c7.css.map": "/static/css/main.846909c7.css.map",
-    "main.4c182020.js.map": "/static/js/main.4c182020.js.map"
+    "main.9b6ca1b9.js.map": "/static/js/main.9b6ca1b9.js.map"
   },
   "entrypoints": [
     "static/css/main.846909c7.css",
-    "static/js/main.4c182020.js"
+    "static/js/main.9b6ca1b9.js"
   ]
 }
