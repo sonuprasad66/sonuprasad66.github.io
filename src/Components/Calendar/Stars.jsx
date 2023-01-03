@@ -71,7 +71,7 @@ export const Stars = () => {
           </div>
           <div className="box1">
             <a href="https://github.com/sonuprasad66">
-              <img src="https://github-readme-streak-stats.herokuapp.com?user=sonuprasad66&theme=github-light&border_radius=5" />
+              <img src="https://github-readme-streak-stats.herokuapp.com/?user=sonuprasad66&theme=github-light" />
             </a>
           </div>
           <div className="box2">
@@ -104,7 +104,7 @@ export const Stars = () => {
           </div>
           <div className="box1">
             <a href="https://github.com/sonuprasad66">
-              <img src="https://github-readme-streak-stats.herokuapp.com?user=sonuprasad66&theme=github-light&border_radius=5" />
+              <img src="https://github-readme-streak-stats.herokuapp.com/?user=sonuprasad66&theme=github-light" />
             </a>
           </div>
           <div className="box2">
