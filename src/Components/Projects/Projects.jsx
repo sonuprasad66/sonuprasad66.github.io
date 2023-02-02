@@ -8,6 +8,7 @@ import ndtv from "../Images/ndtv.jpg";
 import zoomcar from "../Images/zoomcar.jpg";
 import portfolio from "../Images/my_portfolio.png";
 import weather_app from "../Images/weather_app.png";
+import chat_app from "../Images/chat_app.png";
 import tata1mg from "../Images/tata1mg.png";
 import youtube from "../Images/youtube.png";
 import language from "../Images/language.png";
@@ -190,6 +191,56 @@ export const Projects = () => {
                 }}
               >
                 <div className="project_image">
+                  <img src={chat_app} alt="chat_app" />
+                </div>
+
+                <div className="project_name">
+                  <h2>Chatting App</h2>
+                </div>
+                <div className="project_desc">
+                  <p>
+                    This is a Chatting Application . In this project I build and
+                    deploy a real-time chat application within 2 days With
+                    Authentication and Avtar. Using React.js, Socket.io, Nodejs
+                  </p>
+                </div>
+                <div className="project_tech_stack">
+                  <h5>
+                    <span>Tech Stack :</span> React, Node, Express, MongoDB,
+                    WebSocket, Styled-Components, CSS, JavaScript
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link">
+                    <a
+                      href="https://github.com/sonuprasad66/NoApp_Assignment"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link">
+                    <a
+                      href="https://real-time-chat-app-zeta.vercel.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+
+            <Box>
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
+                <div className="project_image">
                   <img src={weather_app} alt="weather_app" />
                 </div>
 
@@ -305,7 +356,7 @@ export const Projects = () => {
                   <p>
                     This website is a clone of "YouTube" I implimented some
                     functionalities like user can search any types of videos and
-                    channel name also he can see title of video and play video.
+                    channel name also he can play video.
                   </p>
                 </div>
                 <div className="project_tech_stack">
@@ -387,7 +438,7 @@ export const Projects = () => {
               </div>
             </Box>
 
-            <Box>
+            {/* <Box>
               <div
                 className="project_box"
                 style={{
@@ -434,7 +485,7 @@ export const Projects = () => {
                   </div>
                 </div>
               </div>
-            </Box>
+            </Box> */}
 
             <Box>
               <div

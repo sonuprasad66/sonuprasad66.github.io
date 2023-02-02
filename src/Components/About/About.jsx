@@ -654,7 +654,7 @@ export const About = () => {
                           alt="git-commit"
                         />
                         <Text className="experience_text">
-                          700+ Git Commits
+                          900+ Git Commits
                         </Text>
                       </HStack>
                       <HStack spacing={5}>
@@ -665,7 +665,7 @@ export const About = () => {
                           alt="git-commit"
                         />
                         <Text className="experience_text">
-                          800+ Contributions in the last year
+                          1000+ Contributions in the last year
                         </Text>
                       </HStack>
                     </SimpleGrid>
