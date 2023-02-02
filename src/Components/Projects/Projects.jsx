@@ -387,50 +387,6 @@ export const Projects = () => {
               </div>
             </Box>
 
-            {/* <Box>
-              <div className="project_box">
-                <div className="project_image">
-                  <img src={weather} alt="clockify" />
-                </div>
-
-                <div className="project_name">
-                  <h2>Weather App</h2>
-                </div>
-                <div className="project_desc">
-                  <p>
-                    It's web app to show the weather forecast details. & here
-                    you will be able to search for all the weather data for any
-                    city & it is detect your current location.
-                  </p>
-                </div>
-                <div className="project_tech_stack">
-                  <h5>
-                    <span>Tech Stack :</span> HTML, CSS, JavaScript, Rest API
-                  </h5>
-                </div>
-                <div className="project_icon">
-                  <div className="github_link">
-                    <a
-                      href="https://github.com/sonuprasad66/Weather_App/tree/main/weather_app"
-                      rel="noopener norefferer"
-                      target="_blank"
-                    >
-                      <FaGithub />
-                    </a>
-                  </div>
-                  <div className="deploy_link">
-                    <a
-                      href="https://jade-muffin-12464e.netlify.app/"
-                      rel="noopener norefferer"
-                      target="_blank"
-                    >
-                      <FaEye />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Box> */}
-
             <Box>
               <div
                 className="project_box"

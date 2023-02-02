@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #edf2f8;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #e4002b;
+}
