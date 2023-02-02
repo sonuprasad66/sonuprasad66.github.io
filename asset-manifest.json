@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.74c88fb7.css",
-    "main.js": "/static/js/main.5867f993.js",
+    "main.css": "/static/css/main.25c08835.css",
+    "main.js": "/static/js/main.3cae422a.js",
     "static/media/youtube.png": "/static/media/youtube.37d09e9174b1606ca49b.png",
     "static/media/landing.png": "/static/media/landing.8246648a4d427420fcb0.png",
     "static/media/creativity1.png": "/static/media/creativity1.445675a0a00c2757a1d6.png",
@@ -16,6 +16,7 @@
     "static/media/timeManage.png": "/static/media/timeManage.4644a4b2b8ed5f538eec.png",
     "static/media/dsa.png": "/static/media/dsa.77509298a343d123a7bd.png",
     "static/media/chakraui.png": "/static/media/chakraui.15320604467d004df871.png",
+    "static/media/chat_app.png": "/static/media/chat_app.68ea578a699f22970f24.png",
     "static/media/ndtv.jpg": "/static/media/ndtv.93a3790b125c5bd15f57.jpg",
     "static/media/rymo.webp": "/static/media/rymo.a9dc531e200296eee18e.webp",
     "static/media/projectManagement.png": "/static/media/projectManagement.56532bbb9da241b0f1c8.png",
@@ -33,11 +34,11 @@
     "static/media/react.svg": "/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
     "static/media/netlify.svg": "/static/media/netlify.74896431af95f4ab7d84bc511bbe7126.svg",
     "index.html": "/index.html",
-    "main.74c88fb7.css.map": "/static/css/main.74c88fb7.css.map",
-    "main.5867f993.js.map": "/static/js/main.5867f993.js.map"
+    "main.25c08835.css.map": "/static/css/main.25c08835.css.map",
+    "main.3cae422a.js.map": "/static/js/main.3cae422a.js.map"
   },
   "entrypoints": [
-    "static/css/main.74c88fb7.css",
-    "static/js/main.5867f993.js"
+    "static/css/main.25c08835.css",
+    "static/js/main.3cae422a.js"
   ]
 }
