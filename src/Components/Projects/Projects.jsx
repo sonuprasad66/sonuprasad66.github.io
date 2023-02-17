@@ -12,6 +12,7 @@ import chat_app from "../Images/chat_app.png";
 import tata1mg from "../Images/tata1mg.png";
 import youtube from "../Images/youtube.png";
 import language from "../Images/language.png";
+import urshop from "../Images/urshop.png";
 import { FaGithub, FaEye } from "react-icons/fa";
 
 export const Projects = () => {
@@ -33,6 +34,158 @@ export const Projects = () => {
 
         <div className="project_grid">
           <SimpleGrid columns={[1, 1, 2, 3]} spacing="40px">
+            <Box>
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
+                <div className="project_image">
+                  <img src={urshop} alt="urshop" />
+                </div>
+
+                <div className="project_name">
+                  <h2>Urshop.com</h2>
+                </div>
+                <div className="project_desc">
+                  <p>
+                    It's my major project where I've used MERN stack to make the
+                    full functional website along with backend integration and
+                    payment gateway integration with all the features of an
+                    e-commerce website.
+                  </p>
+                </div>
+                <div className="project_tech_stack">
+                  <h5>
+                    <span>Tech Stack :</span> React, Redux, JavaScript, CSS,
+                    Chakra UI, Node, Express, MongoDB, Razorpay
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link">
+                    <a
+                      href="https://github.com/sonuprasad66/ur-shop"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link">
+                    <a
+                      href="https://ur-shop-seven.vercel.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+
+            <Box>
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
+                <div className="project_image">
+                  <img src={chat_app} alt="chat_app" />
+                </div>
+
+                <div className="project_name">
+                  <h2>Chatting App</h2>
+                </div>
+                <div className="project_desc">
+                  <p>
+                    This is a Chatting Application . In this project I build and
+                    deploy a real-time chat application within 2 days With
+                    Authentication and Avtar. Using React.js, Socket.io, Nodejs
+                  </p>
+                </div>
+                <div className="project_tech_stack">
+                  <h5>
+                    <span>Tech Stack :</span> React, Node, Express, MongoDB,
+                    WebSocket, Styled-Components, CSS, JavaScript
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link">
+                    <a
+                      href="https://github.com/sonuprasad66/NoApp_Assignment"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link">
+                    <a
+                      href="https://real-time-chat-app-zeta.vercel.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+
+            <Box>
+              <div
+                className="project_box"
+                style={{
+                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
+                }}
+              >
+                <div className="project_image">
+                  <img src={weather_app} alt="weather_app" />
+                </div>
+
+                <div className="project_name">
+                  <h2>Weather App</h2>
+                </div>
+                <div className="project_desc">
+                  <p>
+                    It`s a web app to show the weather forecast details using
+                    weather API & here you will be able to search for all the
+                    weather details for any city. It is also detect your current
+                    location.
+                  </p>
+                </div>
+                <div className="project_tech_stack">
+                  <h5>
+                    <span>Tech Stack :</span> React, Redux, Chakra UI, CSS,
+                    JavaScript, Rest API
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link">
+                    <a
+                      href="https://github.com/sonuprasad66/Weather_App"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link">
+                    <a
+                      href="https://sonu-weather-app.vercel.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+
             <Box>
               <div
                 className="project_box"
@@ -191,107 +344,6 @@ export const Projects = () => {
                 }}
               >
                 <div className="project_image">
-                  <img src={chat_app} alt="chat_app" />
-                </div>
-
-                <div className="project_name">
-                  <h2>Chatting App</h2>
-                </div>
-                <div className="project_desc">
-                  <p>
-                    This is a Chatting Application . In this project I build and
-                    deploy a real-time chat application within 2 days With
-                    Authentication and Avtar. Using React.js, Socket.io, Nodejs
-                  </p>
-                </div>
-                <div className="project_tech_stack">
-                  <h5>
-                    <span>Tech Stack :</span> React, Node, Express, MongoDB,
-                    WebSocket, Styled-Components, CSS, JavaScript
-                  </h5>
-                </div>
-                <div className="project_icon">
-                  <div className="github_link">
-                    <a
-                      href="https://github.com/sonuprasad66/NoApp_Assignment"
-                      rel="noopener norefferer"
-                      target="_blank"
-                    >
-                      <FaGithub />
-                    </a>
-                  </div>
-                  <div className="deploy_link">
-                    <a
-                      href="https://real-time-chat-app-zeta.vercel.app/"
-                      rel="noopener norefferer"
-                      target="_blank"
-                    >
-                      <FaEye />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Box>
-
-            <Box>
-              <div
-                className="project_box"
-                style={{
-                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
-                }}
-              >
-                <div className="project_image">
-                  <img src={weather_app} alt="weather_app" />
-                </div>
-
-                <div className="project_name">
-                  <h2>Weather App</h2>
-                </div>
-                <div className="project_desc">
-                  <p>
-                    It`s a web app to show the weather forecast details using
-                    weather API & here you will be able to search for all the
-                    weather details for any city. It is also detect your current
-                    location.
-                  </p>
-                </div>
-                <div className="project_tech_stack">
-                  <h5>
-                    <span>Tech Stack :</span> React, Redux, Chakra UI, CSS,
-                    JavaScript, Rest API
-                  </h5>
-                </div>
-                <div className="project_icon">
-                  <div className="github_link">
-                    <a
-                      href="https://github.com/sonuprasad66/Weather_App"
-                      rel="noopener norefferer"
-                      target="_blank"
-                    >
-                      <FaGithub />
-                    </a>
-                  </div>
-                  <div className="deploy_link">
-                    <a
-                      href="https://sonu-weather-app.vercel.app/"
-                      rel="noopener norefferer"
-                      target="_blank"
-                    >
-                      <FaEye />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Box>
-
-            <Box>
-              <div
-                className="project_box"
-                style={{
-                  backgroundColor: colorMode == "light" ? "white" : "#1a202c",
-                }}
-              >
-                <div className="project_image">
                   <img
                     style={{ width: "100%" }}
                     src={language}
@@ -306,7 +358,7 @@ export const Projects = () => {
                   <p>
                     This project is about building a web app for language
                     translation using language translator API. Here you will be
-                    able to translate between multiple languages very easily.
+                    able to translate between multiple languages.
                   </p>
                 </div>
                 <div className="project_tech_stack">
@@ -487,7 +539,7 @@ export const Projects = () => {
               </div>
             </Box> */}
 
-            <Box>
+            {/* <Box>
               <div
                 className="project_box"
                 style={{
@@ -535,7 +587,7 @@ export const Projects = () => {
                   </div>
                 </div>
               </div>
-            </Box>
+            </Box> */}
 
             {/* <Box>
               <div
