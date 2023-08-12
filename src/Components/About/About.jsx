@@ -1,6 +1,10 @@
 import React from "react";
 import "./About.css";
 import { Box, HStack, Img, SimpleGrid, Text, isDark } from "@chakra-ui/react";
+import maths from "../Images/skills/maths.png";
+import creative_thinking from "../Images/skills/creativity1.png";
+import problem_solving from "../Images/skills/problemSolv.png";
+import softskills from "../Images/skills/softskills.jpg";
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -589,7 +593,7 @@ export const About = () => {
                       <HStack spacing={5}>
                         <Img
                           boxSize="40px"
-                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-1.svg"
+                          src={creative_thinking}
                           alt="icon"
                         />
                         <Text className="experience_text">
@@ -597,31 +601,19 @@ export const About = () => {
                         </Text>
                       </HStack>
                       <HStack spacing={5}>
-                        <Img
-                          boxSize="40px"
-                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-2.svg"
-                          alt="icon"
-                        />
+                        <Img boxSize="40px" src={problem_solving} alt="icon" />
                         <Text className="experience_text">
                           300+ Hours Data Structures & Algorithms
                         </Text>
                       </HStack>
                       <HStack spacing={5}>
-                        <Img
-                          boxSize="40px"
-                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-3.svg"
-                          alt="icon"
-                        />
+                        <Img boxSize="40px" src={softskills} alt="icon" />
                         <Text className="experience_text">
                           100+ Hours Soft Skill Development
                         </Text>
                       </HStack>
                       <HStack spacing={5}>
-                        <Img
-                          boxSize="40px"
-                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-4.svg"
-                          alt="icon"
-                        />
+                        <Img boxSize="40px" src={maths} alt="icon" />
                         <Text className="experience_text">
                           100+ Hours Math & Logic
                         </Text>
@@ -629,7 +621,7 @@ export const About = () => {
                       <HStack spacing={5}>
                         <Img
                           boxSize="40px"
-                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-5.svg"
+                          src="https://cdn-icons-png.flaticon.com/512/2683/2683346.png"
                           alt="icon"
                         />
                         <Text className="experience_text">
@@ -639,7 +631,7 @@ export const About = () => {
                       <HStack spacing={5}>
                         <Img
                           boxSize="40px"
-                          src="https://www.masaischool.com/img/hire-masai-grads/FindTalent/find-talent-6.svg"
+                          src="https://cdn-icons-png.flaticon.com/512/1087/1087815.png"
                           alt="icon"
                         />
                         <Text className="experience_text">

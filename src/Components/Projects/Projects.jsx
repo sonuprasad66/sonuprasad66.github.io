@@ -12,7 +12,8 @@ import chat_app from "../Images/chat_app.png";
 import tata1mg from "../Images/tata1mg.png";
 import youtube from "../Images/youtube.png";
 import language from "../Images/language.png";
-import urshop from "../Images/urshop.png";
+// import urshop from "../Images/urshop.png";
+import SmartBuy from "../Images/SmartBuy.jpeg";
 import { FaGithub, FaEye } from "react-icons/fa";
 
 export const Projects = () => {
@@ -42,11 +43,11 @@ export const Projects = () => {
                 }}
               >
                 <div className="project_image">
-                  <img src={urshop} alt="urshop" />
+                  <img src={SmartBuy} alt="SmartBuy" />
                 </div>
 
                 <div className="project_name">
-                  <h2>Urshop.com</h2>
+                  <h2>SmartBuy</h2>
                 </div>
                 <div className="project_desc">
                   <p>
@@ -65,7 +66,7 @@ export const Projects = () => {
                 <div className="project_icon">
                   <div className="github_link">
                     <a
-                      href="https://github.com/sonuprasad66/ur-shop"
+                      href="https://github.com/sonuprasad66/SmartBuy"
                       rel="noopener norefferer"
                       target="_blank"
                     >
@@ -74,7 +75,7 @@ export const Projects = () => {
                   </div>
                   <div className="deploy_link">
                     <a
-                      href="https://ur-shop-seven.vercel.app/"
+                      href="https://smartbuy-nu.vercel.app/"
                       rel="noopener norefferer"
                       target="_blank"
                     >
